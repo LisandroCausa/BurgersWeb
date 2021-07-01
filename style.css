@@ -8,7 +8,7 @@ html{
     font-size: 62.5%;
 }
 
-header div{
+header{
     background-color: rgb(235, 172, 70);
     width: 100%;
     height: 8rem;
@@ -99,12 +99,17 @@ nav ul li a{
 }
 
 .productos{
-    display: inline-block;
+    border: 2px solid black;
+    height: 2000px;
+    margin: 140px auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
 }
 
 .comida{
-    display: inline-block;
-    position: relative;
     border-radius: 4rem;
     border: 3px solid black;
     width: 40rem;
@@ -128,19 +133,4 @@ nav ul li a{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 5rem;
     margin-left: 2.5rem;
-}
-
-#combo1{
-    margin-left: 50rem;
-    margin-top: 10rem;
-}
-
-#combo2{
-    margin-left: 5rem;
-    margin-top: 10rem;
-}
-
-#combo3{
-    margin-left: 5rem;
-    margin-top: 10rem;
 }
