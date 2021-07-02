@@ -1,0 +1,36 @@
+/*body{
+    background-color: seagreen;
+}*/
+
+nav{
+    margin: 0;
+
+    left: 50%;
+    margin-left:-375px;
+}
+
+nav ul li a{
+    font-size: 3.7rem;
+    padding: 5px 35px;
+}
+
+.productos{
+    height: 2100px;
+}
+
+.comida{
+    border-radius: 4rem;
+    border: 3px solid black;
+    width: 425px;
+    height: 531.25px;
+    background-color: rgba(248, 208, 162, 0.74);
+}
+
+.comida h2{
+    font-size: 3.8rem;
+    margin-left: 2.5rem;
+}
+
+.pie{
+    top: 2350px;
+}

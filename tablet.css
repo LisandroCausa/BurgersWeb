@@ -1,0 +1,35 @@
+/*body{
+    background-color: royalblue;
+}*/
+
+.productos{
+    height: 2500px;
+}
+
+.pie{
+    top: 2675px;
+}
+
+header{
+    height: 9rem;
+}
+
+nav{
+    margin-left: 20%;
+}
+
+nav ul li{
+    margin-top: 32px;
+}
+
+nav ul li a{
+    font-size: 2.5rem;
+    padding: 5px 15px;
+}
+
+#icono{
+
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 70px;
+}
